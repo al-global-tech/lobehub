@@ -30,6 +30,7 @@ export * from './dashboard';
 export * from './dataExport';
 export * from './dbMigration';
 export * from './device';
+export * from './deviceAgentCredential';
 export * from './deviceFilePreviewFailure';
 export * from './deviceGatewayToken';
 export * from './deviceMetric';
