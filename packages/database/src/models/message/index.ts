@@ -47,6 +47,7 @@ export class MessageModel {
   searchByKeyword: MessageKeywordSearchQueries['searchByKeyword'];
 
   queryByIds: MessageByIdsQueries['queryByIds'];
+  queryCompressedGroupMembers: MessageByIdsQueries['queryCompressedGroupMembers'];
 
   queryWithWhere: MessagePageQueries['queryWithWhere'];
 
@@ -169,6 +170,7 @@ export class MessageModel {
     this.searchInTopic = lookups.searchInTopic;
     this.searchByKeyword = keywordSearch.searchByKeyword;
     this.queryByIds = byIds.queryByIds;
+    this.queryCompressedGroupMembers = byIds.queryCompressedGroupMembers;
     this.queryWithWhere = page.queryWithWhere;
     this.queryLastUserMessageByTopics = conversation.queryLastUserMessageByTopics;
     this.query = conversation.query;
